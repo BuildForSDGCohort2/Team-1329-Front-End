@@ -1,0 +1,51 @@
+@import '../../static/style';
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  justify-content: space-around;
+  margin: $center;
+  margin-top: 15rem;
+  padding-top: 3rem;
+  width: $container-width;
+  
+  .hero-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+
+    h2 {
+      color: black;
+      font-size: 3.5rem;
+
+      span {
+        color: rgb(69, 30, 107);
+      }
+    }
+
+    p {
+      color: #202000;
+      font-size: 2rem;
+      line-height: 2;
+    }
+
+    .hero-btn {
+      font-size: 2rem;
+      padding: 1.5rem 0;
+      text-align: center;
+      width: 40%;
+    }
+  }
+
+  .hero-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+    img {
+      width: 40rem;
+    }
+  }
+}

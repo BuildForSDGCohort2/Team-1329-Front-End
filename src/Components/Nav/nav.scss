@@ -1,0 +1,41 @@
+.nav-container {
+  background: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  
+  .logo {
+    flex: 1;
+    font-size: 3rem;
+    margin: 1rem auto;
+    margin-left: 6rem;
+  }
+  
+  .main-nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 1rem auto;
+    
+    li {
+      padding: 1rem 3rem;
+    }
+  }
+  
+  .auth-nav {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem auto;
+    margin-right: 6rem;
+    
+    li {
+      padding: 1rem 3rem;
+    }
+  }
+}
