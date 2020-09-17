@@ -1,5 +1,5 @@
 module.exports = {
-  "parser": "babel-eslint",
+  parser: 'babel-eslint',
   env: {
     browser: true,
     es6: true,
@@ -18,6 +18,6 @@ module.exports = {
   rules: {
     'comma-dangle': ['error', 'never'],
     'no-param-reassign': ['error', { props: false }],
-    "linebreak-style": 0
+    'linebreak-style': 0
   }
 };
