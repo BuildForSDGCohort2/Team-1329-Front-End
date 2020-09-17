@@ -1,24 +1,24 @@
 @import '../../static/style';
 
 .hero-container {
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
+  height: 50vh;
+  justify-content: space-around;
   margin: $center;
   margin-top: 15rem;
   padding-top: 3rem;
-  justify-content: space-around;
   width: $container-width;
-  height: 50vh;
-
+  
   .hero-content {
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
     flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
 
     h2 {
-      font-size: 3.5rem;
       color: black;
+      font-size: 3.5rem;
 
       span {
         color: rgb(69, 30, 107);
@@ -26,22 +26,22 @@
     }
 
     p {
+      color: #202000;
       font-size: 2rem;
       line-height: 2;
-      color: #202000;
     }
 
     .hero-btn {
       font-size: 2rem;
-      width: 40%;
-      text-align: center;
       padding: 1.5rem 0;
+      text-align: center;
+      width: 40%;
     }
   }
 
   .hero-image {
-    flex: 1;
     display: flex;
+    flex: 1;
     justify-content: center;
 
     img {

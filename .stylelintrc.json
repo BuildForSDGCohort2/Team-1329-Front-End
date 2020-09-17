@@ -1,7 +1,9 @@
 {
     "extends": "stylelint-config-sass-guidelines",
     "rules": {
-      "indentation": "tab",
-      "number-leading-zero": null
+      "indentation": 2,
+      "number-leading-zero": null,
+      "color-named": "always-where-possible",
+      "max-nesting-depth": 3
     }
   }
